@@ -1,7 +1,10 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// Configuración para GitHub Pages
 export default defineConfig({
   plugins: [react()],
+  base: '/cotizador-hogar/', // 👈 nombre exacto de tu repo en GitHub
 })
+
